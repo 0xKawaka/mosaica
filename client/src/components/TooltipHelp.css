@@ -1,0 +1,41 @@
+.tooltip-help {
+  position: fixed;
+  top: 50vh;
+  left:1vw;
+  width: 310px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  z-index: 2;
+}
+
+.tooltip-content {
+  position: relative;
+}
+
+.tooltip-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #888;
+  transition: color 0.2s;
+}
+
+.tooltip-close:hover {
+  color: #555;
+}
+
+.tooltip-help h3 {
+  font-size: 1.2rem;
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.tooltip-help p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
